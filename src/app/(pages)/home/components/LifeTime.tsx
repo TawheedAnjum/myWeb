@@ -7,7 +7,7 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem, Card, CardBod
 
 const LifeTime = () => {
   return (
-    <section className="section" id="resume">
+    <section className="section bg-gradient-light-white" id="resume">
       <Container>
         <Row className="justify-content-center mb-4">
           <Col xs={12} md={10} lg={7} className="text-center">
@@ -37,42 +37,25 @@ const LifeTime = () => {
                   <CardBody className="p-0">
                     <Accordion defaultActiveKey={'1'} className="accordion-flush" id="Education_accordion">
                       <AccordionItem eventKey='1'>
-                        <AccordionHeader as={'h2'} id="prime">
-                          MSc IT Master Degree
-                          <span className="fw-medium text-primary ms-auto fs-14">2010 - 2012</span>
+                        <AccordionHeader as={'h2'} id="second">
+                          BSC in computer science and engineering
+                          <span className="fw-medium text-primary ms-auto fs-14">2017 - 2022</span>
                         </AccordionHeader>
                         <AccordionBody className="accordion-body">
-                          <p className="text-muted mb-3">Harvard University is an educational institution that offers graduate,
-                            professional, and research programs
-                            in the fields of and public health.
+                          <p className="text-muted mb-3">Graduated with a B.Sc. in Computer Science and Engineering from American International University–Bangladesh (AIUB), with a passion for building innovative software solutions.
                           </p>
-                          <p className="fw-medium">Harvard University, Cambridge, MA, United States</p>
+                          <p className="fw-medium">American International University - Bangladesh (AIUB)</p>
                         </AccordionBody>
                       </AccordionItem>
                       <AccordionItem eventKey='2'>
-                        <AccordionHeader as={'h2'} id="second">
-                          BCA college complete course
-                          <span className="fw-medium text-primary ms-auto fs-14">2007 - 2010</span>
-                        </AccordionHeader>
-                        <AccordionBody className="accordion-body">
-                          <p className="text-muted mb-3">Columbia University is an educational institution that offers graduate,
-                            professional, and research programs
-                            in the fields of and public health.
-                          </p>
-                          <p className="fw-medium">Columbia University, New York, NY, United States</p>
-                        </AccordionBody>
-                      </AccordionItem>
-                      <AccordionItem eventKey='3'>
                         <AccordionHeader as={'h2'} id="higher">
-                          High / Higher secondary school
-                          <span className="fw-medium text-primary ms-auto fs-14">1999 - 2007</span>
+                          Higher Secondary School Certificate (HSC)
+                          <span className="fw-medium text-primary ms-auto fs-14">2014 - 2016</span>
                         </AccordionHeader>
                         <AccordionBody className="accordion-body">
-                          <p className="text-muted mb-3">Princeton University is an educational institution that offers graduate,
-                            professional, and research programs
-                            in the fields of and public health.
+                          <p className="text-muted mb-3">Completed Higher Secondary Certificate (HSC) from Cantonment Public School & College, Rangpur in 2016, building a strong base in science and technology.
                           </p>
-                          <p className="fw-medium">Princeton University, Princeton, NJ, United States</p>
+                          <p className="fw-medium">Cantonment Public School & College, Rangpur.</p>
                         </AccordionBody>
                       </AccordionItem>
                     </Accordion>
@@ -98,42 +81,40 @@ const LifeTime = () => {
                   <CardBody className="p-0">
                     <Accordion defaultActiveKey={'1'} className="accordion-flush" id="Experience_accordion">
                       <AccordionItem eventKey='1'>
-                        <AccordionHeader id="first-co">
-                          ABC themes - Web Design IT Company
-                          <span className="fw-medium text-primary ms-auto fs-14">2020 - 2021</span>
+                        <AccordionHeader id="second-co">
+                          Codemen Solution Limited
+                          <span className="fw-medium text-primary ms-auto fs-14">2022 - Present</span>
                         </AccordionHeader>
                         <AccordionBody>
-                          <p className="text-muted mb-1">- Delivered quality code by applying the best development practices</p>
-                          <p className="fw-medium">A-000 Chambers Street, Suite z-701 New York, NY 10007, United States</p>
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Angular</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">React</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Python</span>
+                          <p className="text-muted mb-1">- Manage full-stack web development using React.js, Next.js, and modern backend technologies while mentoring developers, optimizing system performance, and designing scalable solutions.</p>
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Next.js</span>&nbsp;
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Node.js</span>&nbsp;
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Javascript</span>
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Typescript</span>
                         </AccordionBody>
                       </AccordionItem>
                       <AccordionItem eventKey='2'>
-                        <AccordionHeader id="second-co">
-                          DEF Themes - Creative full stack web design &amp; development
-                          <span className="fw-medium text-primary ms-auto fs-14">2016 - 2019</span>
+                        <AccordionHeader id="third-co">
+                          United International University
+                          <span className="fw-medium text-primary ms-auto fs-14">2021 - 2022</span>
                         </AccordionHeader>
                         <AccordionBody>
-                          <p className="text-muted mb-1">- Delivered quality code by applying the best development practices</p>
-                          <p className="fw-medium">A-000 Chambers Street, Suite z-701 New York, NY 10007, United States</p>
+                          <p className="text-muted mb-1">- Developed Laravel and React.js applications for research projects, improving system performance, database efficiency, and ensuring reliable server operations.</p>
                           <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Laravel</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Bootstrap</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">javascript</span>
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">React.js</span>&nbsp;
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Python</span>
                         </AccordionBody>
                       </AccordionItem>
                       <AccordionItem eventKey='3'>
-                        <AccordionHeader id="third-co">
-                          GHI Themes - Web &amp; App IT Company
-                          <span className="fw-medium text-primary ms-auto fs-14">2013 - 2015</span>
+                        <AccordionHeader id="first-co">
+                          Bangladesh Digital Education Research Ltd
+                          <span className="fw-medium text-primary ms-auto fs-14">2021</span>
                         </AccordionHeader>
                         <AccordionBody>
-                          <p className="text-muted mb-1">- Delivered quality code by applying the best development practices</p>
-                          <p className="fw-medium">A-000 Chambers Street, Suite z-701 New York, NY 10007, United States</p>
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Node.js</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Php.net</span>&nbsp;
-                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Django</span>
+                          <p className="text-muted mb-1">- Contributed to Node.js and React.js applications by debugging, implementing improvements, and collaborating with the team to enhance code quality and system stability.</p>
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">React.js</span>&nbsp;
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">Javascript</span>&nbsp;
+                          <span className="badge badge-lg rounded bg-soft-alt-info fw-normal fs-13 text-uppercase mt-2">MongoDB</span>
                         </AccordionBody>
                       </AccordionItem>
                     </Accordion>
